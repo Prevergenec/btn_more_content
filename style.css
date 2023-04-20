@@ -1,0 +1,35 @@
+.wrapper-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    margin: 100px auto 20px;
+}
+.box {
+    margin: 10px;
+    width: calc(33% - 20px);
+    height: 100px;
+    background-color: #E1E1E1;
+    border: 1px solid #AAA;
+    display: none;
+}
+.wrapper-buton {
+    width: 600px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 auto;
+}
+.button {
+    background: #0072bc;
+    border: 1px solid #0072bc;
+    color: #fff;
+    text-align: center;
+    padding: 10px 50px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.button:hover {
+    background: #FFF;
+    border: 1px solid #0072bc;
+    color: #000;
+    transition: .5s;
+}
