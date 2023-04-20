@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
     
     function showBlock(i) {
         for (let y = 0; y < i; y++) {
-            box[y].style.display = 'block';
+            box[y].classList.add('show', 'fade');
         }
     }
     
